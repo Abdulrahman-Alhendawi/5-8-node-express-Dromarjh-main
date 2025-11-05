@@ -2,11 +2,14 @@ import express from "express";
 import cors from "cors";
 import { getRandomQuote } from "./quotes.js";
 
-{/*write code for cors*/}
+// Initialize Express app (TODO 1)
+const app = express();
+const PORT = 3000;
 
+// Note: CORS and routes are implemented in later TODOs
 
-{/*write code to define routes*/}
-
-
-{/*write code to create server*/}
+// Start the server
+app.listen(PORT, () => {
+	console.log(`Server running on http://localhost:${PORT}`);
+});
 
